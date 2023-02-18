@@ -16,8 +16,9 @@ divs.forEach((item) => {
 //Escriba aquí su código:
 
 for (let i = 0; i < 3; i++) {
-    divs[i].innerText = `box ${i + 1}`;
 
+    divs[i].innerText = `box ${i + 1}`;
+    
     switch (i) {
         case 0:
             divs[i].style.backgroundColor = "red";
@@ -26,17 +27,17 @@ for (let i = 0; i < 3; i++) {
             divs[i].style.backgroundColor = "green";
             break;
         case 2:
-            divs[i].style.backgroundColor = "red";
+            divs[i].style.backgroundColor = "blue";
             break;
         default:
             console.log("Error");
             break;
     }
+
+   
 }
 
 
-divs[1].style.backgroundColor = "green";
-divs[2].style.backgroundColor = "blue";
 
 
 
